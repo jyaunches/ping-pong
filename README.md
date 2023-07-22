@@ -1,8 +1,6 @@
 # ping-pong
 Exploring a ping pong game implementation.
 
-Notes on implementation.
-
 --- Goal of Approach ---
 
 Drive incremental development of implementation via unit tests to:
