@@ -15,8 +15,8 @@
 		2789FF822A6A874300F3CABE /* PingPongGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789FF812A6A874300F3CABE /* PingPongGameUITests.swift */; };
 		2789FF842A6A874300F3CABE /* PingPongGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789FF832A6A874300F3CABE /* PingPongGameUITestsLaunchTests.swift */; };
 		2789FF922A6A879300F3CABE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789FF912A6A879300F3CABE /* Game.swift */; };
-		2789FF942A6A87F000F3CABE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789FF932A6A87F000F3CABE /* Player.swift */; };
 		2789FF962A6A881F00F3CABE /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789FF952A6A881F00F3CABE /* GameObject.swift */; };
+		2789FF982A6C665F00F3CABE /* MovesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789FF972A6C665F00F3CABE /* MovesBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +48,8 @@
 		2789FF812A6A874300F3CABE /* PingPongGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongGameUITests.swift; sourceTree = "<group>"; };
 		2789FF832A6A874300F3CABE /* PingPongGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2789FF912A6A879300F3CABE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		2789FF932A6A87F000F3CABE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		2789FF952A6A881F00F3CABE /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		2789FF972A6C665F00F3CABE /* MovesBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2789FF772A6A874300F3CABE /* PingPongGameTests.swift */,
+				2789FF972A6C665F00F3CABE /* MovesBuilder.swift */,
 			);
 			path = PingPongGameTests;
 			sourceTree = "<group>";
@@ -138,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				2789FF912A6A879300F3CABE /* Game.swift */,
-				2789FF932A6A87F000F3CABE /* Player.swift */,
 				2789FF952A6A881F00F3CABE /* GameObject.swift */,
 			);
 			path = Models;
@@ -274,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2789FF942A6A87F000F3CABE /* Player.swift in Sources */,
 				2789FF692A6A874100F3CABE /* ContentView.swift in Sources */,
 				2789FF922A6A879300F3CABE /* Game.swift in Sources */,
 				2789FF672A6A874100F3CABE /* PingPongGameApp.swift in Sources */,
@@ -286,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2789FF982A6C665F00F3CABE /* MovesBuilder.swift in Sources */,
 				2789FF782A6A874300F3CABE /* PingPongGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

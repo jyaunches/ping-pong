@@ -51,16 +51,20 @@ class Game {
     }
     
     private func processPaddleInput(_ move: Move) {
-        
+        paddleLeft.process(move.joyStickLeft)
+        paddleRight.process(move.joyStickRight)
     }
     
     private func updateGameComponents() {
-        // if ball hit y boundary -> process direction & velocity change of ball
-        //   -- reverse ball y velocity
         // if ball impacted a paddle -> process velocity change of ball
+        // if ball hit y boundary -> increment appropriate score
         
-        if ball.isImpactedWithRightObjectAt(paddleLeft.coords) {
+        if ball.isImpactedWithRightObjectAt(paddleRight.coords) || ball.isImpactedWithLeftObjectAt(paddleLeft.coords) {
             ball.velocity.x = ball.velocity.x * -1
+        } else if ball.hasPassedObjectOnRight(board.dimensions) {
+            paddleLeft.incrementScore()
+        } else if ball.hasPassedObjectOnLeft(board.dimensions) {
+            paddleRight.incrementScore()
         }
     }
 }

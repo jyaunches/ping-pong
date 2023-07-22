@@ -20,10 +20,26 @@ protocol GameObject {
 class Paddle : GameObject {
     var coords: TwoDVector
     var velocity: TwoDVector
+    var score: Int = 0
     
     init(coords: TwoDVector, velocity: TwoDVector) {
         self.coords = coords
         self.velocity = velocity
+    }
+    
+    func incrementScore() {
+        score += 1
+    }
+    
+    func process(_ joyStickPosition: JoyStickPosition) {
+        switch(joyStickPosition) {
+        case .Down:
+            coords.y -= 1
+        case .Up:
+            coords.y += 1
+        case .Neutral:
+            return
+        }
     }
 }
 
@@ -37,7 +53,21 @@ class Ball : GameObject {
     }
     
     func isImpactedWithRightObjectAt(_ objectCoors: TwoDVector) -> Bool {
-        return coords.x >= objectCoors.x
+        let impactOnYAxis = (coords.y == objectCoors.y || coords.y == objectCoors.y)
+        return coords.x >= objectCoors.x && impactOnYAxis
+    }
+    
+    func isImpactedWithLeftObjectAt(_ objectCoors: TwoDVector) -> Bool {
+        let impactOnYAxis = (coords.y == objectCoors.y || coords.y == objectCoors.y)
+        return coords.x <= 0 && impactOnYAxis
+    }
+    
+    func hasPassedObjectOnRight(_ objectCoors: TwoDVector) -> Bool {
+        return coords.x > objectCoors.x || coords.y > objectCoors.y
+    }
+    
+    func hasPassedObjectOnLeft(_ objectCoors: TwoDVector) -> Bool {
+        return coords.x < 0 || coords.y > 0
     }
     
     func moveForward() {
