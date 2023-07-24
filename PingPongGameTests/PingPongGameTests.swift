@@ -29,7 +29,8 @@ final class PingPongGameTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    // no y velocity to start, just send back and forth at center of y
+    // NOTE: TESTING W/ NO Y VELOCITY
+    // These tests have a static y velocity to start, just send back and forth at center of y
     func testOnRightPaddleInteractingWithBallItsVelocityReverses() throws {
         let moves = MovesBuilder().addNeutralMoves(6).build()
         game?.processMoves(moves: moves)
@@ -39,7 +40,7 @@ final class PingPongGameTests: XCTestCase {
     
     // no y velocity to start, just send back and forth at center of y
     func testOnLeftPaddleInteractingWithBallItsVelocityReverses() throws {
-        let moves = MovesBuilder().addNeutralMoves(11).build()
+        let moves = MovesBuilder().addNeutralMoves(16).build()
         game?.processMoves(moves: moves)
         
         XCTAssertEqual(ball.velocity.x, 1.0)  //
@@ -54,5 +55,11 @@ final class PingPongGameTests: XCTestCase {
         
         XCTAssertEqual(game!.paddleLeft.score, 1)  //
     }
-
+    
+    // NOTE: END TESTING W/ NO Y VELOCITY
+    
+    // NOTE: TESTING W/ Y VELOCITY
+    
+    
+    // NOTE: END TESTING W/ Y VELOCITY
 }

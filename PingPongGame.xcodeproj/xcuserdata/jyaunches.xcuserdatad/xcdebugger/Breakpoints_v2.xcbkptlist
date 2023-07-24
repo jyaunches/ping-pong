@@ -7,47 +7,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "578A5827-C9F4-4EEC-B4A6-631A77A49FB9"
+            uuid = "EEA47737-D2A8-4FD7-AFB2-804FBD7CE494"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PingPongGame/Models/Game.swift"
+            filePath = "PingPongGameTests/PingPongGameTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "updateGameComponents()"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testOnRightPaddleInteractingWithBallItsVelocityReverses()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "578A5827-C9F4-4EEC-B4A6-631A77A49FB9 - 2e035b33c1ff86e4"
+                  uuid = "EEA47737-D2A8-4FD7-AFB2-804FBD7CE494 - 9d3e6d2830e4bc7c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "PingPongGame.Game.updateGameComponents() -&gt; ()"
-                  moduleName = "PingPongGame"
+                  symbolName = "PingPongGameTests.PingPongGameTests.testOnRightPaddleInteractingWithBallItsVelocityReverses() throws -&gt; ()"
+                  moduleName = "PingPongGameTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGame/Models/Game.swift"
+                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGameTests/PingPongGameTests.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "147">
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "144">
                </Location>
                <Location
-                  uuid = "578A5827-C9F4-4EEC-B4A6-631A77A49FB9 - 2e035b33c1ff8683"
+                  uuid = "EEA47737-D2A8-4FD7-AFB2-804FBD7CE494 - 9d3e6d2830e4bc5d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "PingPongGame.Game.updateGameComponents() -&gt; ()"
-                  moduleName = "PingPongGame"
+                  symbolName = "PingPongGameTests.PingPongGameTests.testOnRightPaddleInteractingWithBallItsVelocityReverses() throws -&gt; ()"
+                  moduleName = "PingPongGameTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGame/Models/Game.swift"
+                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGameTests/PingPongGameTests.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "291">
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "144">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -55,7 +55,23 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "ED308314-854F-41E1-AD21-C5675609FFA7"
+            uuid = "856F17CC-5CA4-4BBB-8EE7-7A8937743B6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PingPongGameTests/PingPongGameTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testOnLeftPaddleInteractingWithBallItsVelocityReverses()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8684A1FE-FC28-40BD-A2F5-D50151B55B2B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -65,54 +81,6 @@
             startingLineNumber = "62"
             endingLineNumber = "62"
             landmarkName = "updateGameComponents()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "ED308314-854F-41E1-AD21-C5675609FFA7 - 2e035b33c1ff8683"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PingPongGame.Game.updateGameComponents() -&gt; ()"
-                  moduleName = "PingPongGame"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGame/Models/Game.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "37">
-               </Location>
-               <Location
-                  uuid = "ED308314-854F-41E1-AD21-C5675609FFA7 - 2e035b33c1ff86a2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PingPongGame.Game.updateGameComponents() -&gt; ()"
-                  moduleName = "PingPongGame"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGame/Models/Game.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "37">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EEA47737-D2A8-4FD7-AFB2-804FBD7CE494"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PingPongGameTests/PingPongGameTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "testOnRightPaddleInteractingWithBallItsVelocityReverses()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
