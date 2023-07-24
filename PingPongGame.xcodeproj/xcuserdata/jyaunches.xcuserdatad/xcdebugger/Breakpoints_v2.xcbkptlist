@@ -62,26 +62,138 @@
             filePath = "PingPongGameTests/PingPongGameTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "testOnLeftPaddleInteractingWithBallItsVelocityReverses()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "856F17CC-5CA4-4BBB-8EE7-7A8937743B6C - b00abd3253ae2955"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PingPongGameTests.PingPongGameTests.testOnLeftPaddleInteractingWithBallItsVelocityReverses() throws -&gt; ()"
+                  moduleName = "PingPongGameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGameTests/PingPongGameTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "856F17CC-5CA4-4BBB-8EE7-7A8937743B6C - b00abd3253ae2974"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PingPongGameTests.PingPongGameTests.testOnLeftPaddleInteractingWithBallItsVelocityReverses() throws -&gt; ()"
+                  moduleName = "PingPongGameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGameTests/PingPongGameTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6612C73-AD30-4CD7-BAF9-00E18BCE14BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PingPongGameTests/PingPongGameTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "testWhenBallGoesOffBoardScoreIncreasesForOffender()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8684A1FE-FC28-40BD-A2F5-D50151B55B2B"
+            uuid = "9B611C62-EA9D-401A-9757-9D3C183BDB77"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PingPongGame/Models/Game.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "updateGameComponents()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "225DD3CA-FD18-493B-918A-3775AE0BE516"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PingPongGame/Models/Game.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "updateGameComponents()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D920CEC6-DA7A-40A2-A24E-4D03DFF67574"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PingPongGame/Models/GameObject.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "hasPassedObjectOnLeft(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D920CEC6-DA7A-40A2-A24E-4D03DFF67574 - 9eb4251ad872dc6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PingPongGame.Ball.hasPassedObjectOnLeft(PingPongGame.TwoDVector) -&gt; Swift.Bool"
+                  moduleName = "PingPongGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGame/Models/GameObject.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "D920CEC6-DA7A-40A2-A24E-4D03DFF67574 - 9eb4251ad872dc6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PingPongGame.Ball.hasPassedObjectOnLeft(PingPongGame.TwoDVector) -&gt; Swift.Bool"
+                  moduleName = "PingPongGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jyaunches/Development/Personal/PingPongGame/PingPongGame/Models/GameObject.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

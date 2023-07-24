@@ -32,6 +32,7 @@ class Game {
     var ball: Ball          //coords & velocity
     var paddleLeft: Paddle     //coords & velocity
     var paddleRight: Paddle     //coords & velocity
+    var winningScore: Int = 1
     
     var board: Board
         
@@ -42,12 +43,14 @@ class Game {
         self.board = board
     }
     
-    func processMoves(moves: [Move]) {
+    func processMoves(moves: [Move]) -> Bool {
         for move in moves {
             ball.moveForward()
             processPaddleInput(move)
             updateGameComponents()
+            if checkForWin() { return true }
         }
+        return checkForWin()
     }
     
     private func processPaddleInput(_ move: Move) {
@@ -66,5 +69,9 @@ class Game {
         } else if ball.hasPassedObjectOnLeft(board.dimensions) {
             paddleRight.incrementScore()
         }
+    }
+    
+    func checkForWin() -> Bool {
+        return paddleLeft.score == winningScore || paddleRight.score == winningScore
     }
 }

@@ -67,7 +67,7 @@ class Ball : GameObject {
     }
     
     func hasPassedObjectOnLeft(_ objectCoors: TwoDVector) -> Bool {
-        return coords.x < 0 || coords.y > 0
+        return coords.x < 0
     }
     
     func moveForward() {
